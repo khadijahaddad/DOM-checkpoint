@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shopping Cart</title>
+    <link rel="icon" href="src/icon.avif" type="img">
+</head>
+<body>
+    <div class="header">
+        <h1>My Shopping Cart</h1>
+        <div class="cart-icon">
+            🛒
+        </div>
+    </div>
+    <div class="cart">
+        <div class="item" data-price="20">
+            <div class="item-details">
+                <img src="src/pink dress.avif" alt="Pink T-Shirt" class="product-image">
+                <span class="item-name">Dress</span>
+                <button class="like-btn">♥</button>
+                <button class="remove-btn">Remove</button>
+            </div>
+            <div class="item-quantity">
+                <button class="quantity-btn minus">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn plus">+</button>
+            </div>
+            <span class="item-total-price">$20.00</span>
+        </div>
+        <div class="item" data-price="15">
+            <div class="item-details">
+                <img src="src/pink hat.jpg" alt="Pink Hat" class="product-image">
+                <span class="item-name">Hat</span>
+                <button class="like-btn">♥</button>
+                <button class="remove-btn">Remove</button>
+            </div>
+            <div class="item-quantity">
+                <button class="quantity-btn minus">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn plus">+</button>
+            </div>
+            <span class="item-total-price">$15.00</span>
+        </div>
+        <div class="item" data-price="30">
+            <div class="item-details">
+                <img src="src/pink shoes.webp" alt="Pink Shoes" class="product-image">
+                <span class="item-name">Shoes</span>
+                <button class="like-btn">♥</button>
+                <button class="remove-btn">Remove</button>
+            </div>
+            <div class="item-quantity">
+                <button class="quantity-btn minus">-</button>
+                <span class="quantity">1</span>
+                <button class="quantity-btn plus">+</button>
+            </div>
+            <span class="item-total-price">$30.00</span>
+        </div>
+        <div class="total">
+            Total: <span class="total-price">$65.00</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
